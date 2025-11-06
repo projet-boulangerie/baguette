@@ -45,3 +45,22 @@ Chaque transaction est une miette, chaque bloc un four, chaque holder un ***BOUL
 
 **Copyright © 2025 Projet Baguette**  
 *Tous droits réservés – Que la mie soit avec vous.*  
+
+---
+
+## 🔧 Tests
+
+Nous utilisons Foundry. Pour exécuter la suite complète :
+
+```bash
+forge test
+```
+
+## 🚀 Déploiement
+
+Un script Foundry est disponible dans `script/DeployBaguette.s.sol`. Exemple d'exécution :
+
+```bash
+export PRIVATE_KEY=0xyourkey
+forge script script/DeployBaguette.s.sol --rpc-url http://localhost:8545 --broadcast
+```
