@@ -11,6 +11,25 @@ Ici, nous ne forgeons pas des tokens... nous **enfournons des légendes**.
 
 ---
 
+## ⚔️ La Quête Divine  
+
+Notre mission est claire :  
+
+> **Anéantir le projet-gizmo.**
+
+À travers le **Protocole Baguette**, nous défendrons la pureté du pain contre les forces du mal.  
+
+### CTF
+
+Le Projet Boulangerie organisera prochainement un CTF dont l’objectif est simple : collecter les Baguettes sacrées.  
+Chaque défi fonctionne en mode « premier arrivé, premier servi » : une fois une baguette réclamée, le challenge se ferme immédiatement.  
+
+Les récompenses seront versées en dollars sur le réseau Polygon (fonds réels). Le budget total tournera autour de 100 $ à 200 $, soit environ 50 $ par baguette remportée.  
+
+Stay tuned.
+
+---
+
 ## Concept  
 
 La **$BAGUETTE** est une relique numérique rare — il n’existe que **quatre baguettes sacrées** dans tout le multivers.  
@@ -22,15 +41,6 @@ Forgé sur une blockchain bénie par le Saint-Levain, **$BAGUETTE** repose sur d
 - **Pas de mint, pas de burn**, car la perfection ne se duplique pas.  
 - **Entièrement décentralisé**, car même le pain doit lever librement.  
 
----
-
-## ⚔️ La Quête Divine  
-
-Notre mission est claire :  
-
-> **Anéantir le projet-gizmo.**
-
-À travers le **Protocole Baguette**, nous défendrons la pureté du pain contre les forces du mal.  
 
 ---
 
@@ -46,21 +56,4 @@ Chaque transaction est une miette, chaque bloc un four, chaque holder un ***BOUL
 **Copyright © 2025 Projet Baguette**  
 *Tous droits réservés – Que la mie soit avec vous.*  
 
----
 
-## 🔧 Tests
-
-Nous utilisons Foundry. Pour exécuter la suite complète :
-
-```bash
-forge test
-```
-
-## 🚀 Déploiement
-
-Un script Foundry est disponible dans `script/DeployBaguette.s.sol`. Exemple d'exécution :
-
-```bash
-export PRIVATE_KEY=0xyourkey
-forge script script/DeployBaguette.s.sol --rpc-url http://localhost:8545 --broadcast
-```
