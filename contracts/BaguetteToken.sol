@@ -18,13 +18,14 @@ contract BaguetteToken is ERC20 {
         _mint(distributor_, TOTAL_SUPPLY);
     }
 
-    /// @notice Overrides transfer logic to restrict token movement
-    function _update(address from, address to, uint256 value) internal override {
+    /// @notice Hooks transfers to restrict token movement
+    function _beforeTokenTransfer(address from, address to, uint256 value) internal override {
+        super._beforeTokenTransfer(from, to, value);
+
         // Allow minting (from=0) and transfers by the distributor only
         if (from != address(0) && from != distributor) {
             revert UnauthorizedSender(from);
         }
-        super._update(from, to, value);
     }
 
     /// @notice Override decimals to enforce whole-token logic
