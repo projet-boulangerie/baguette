@@ -15,10 +15,10 @@ contract BaguetteDistributor {
     address public owner;
 
     // Hardcoded flag hashes for all 4 CTFs (replace with real hashes)
-    bytes32 public constant FLAG_HASH_1 = 0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef;
-    bytes32 public constant FLAG_HASH_2 = 0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890;
-    bytes32 public constant FLAG_HASH_3 = 0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef;
-    bytes32 public constant FLAG_HASH_4 = 0xfeebdaedfeebdaedfeebdaedfeebdaedfeebdaedfeebdaedfeebdaedfeebdaed;
+    bytes32 public constant FLAG_HASH_1 = 0xfd0963045532356fcf5dd0a83d770a11659336e928f21324fa110ce574ad018c;
+    bytes32 public constant FLAG_HASH_2 = 0xc7ba8a87595b8bc6e91e300c8923d6531db3cb71d465f7dfad684335750d1dcb;
+    bytes32 public constant FLAG_HASH_3 = 0x82a339f7d5da088aab65e885de20747e2c2a97228e0ecc3bed9f2cb59edea586;
+    bytes32 public constant FLAG_HASH_4 = 0x4fd1f35a3fac36004a6e5cc49b4adefa45ce4f68f9b0b3fdf6fa728fd8ddc88d;
 
     // Track if a flag has been solved so it cannot be reused
     bool[4] public isSolved;
